@@ -1,0 +1,35 @@
+# Core dependencies with loose versioning for better compatibility
+streamlit>=1.22.0,<1.31.0
+pandas>=1.3.0,<2.1.0
+numpy>=1.20.0,<1.25.0
+matplotlib>=3.5.0,<3.8.0
+seaborn>=0.11.0,<0.13.0
+scikit-learn>=1.0.0,<1.4.0
+
+# Visualization
+plotly>=5.10.0
+openpyxl>=3.0.0
+reportlab>=3.6.0
+Pillow>=9.0.0
+
+# ML Libraries
+joblib>=1.1.0
+xgboost>=1.5.0
+lightgbm>=3.3.0
+
+# Deep Learning (using CPU version to reduce size)
+tensorflow-cpu>=2.10.0,<2.13.0
+# Fix for protobuf conflict
+protobuf>=3.20.0,<4.0.0
+
+# Gemini API Integration
+google-generativeai>=0.2.0
+
+# Optional dependencies - commented out to reduce deployment size
+# llama-cpp-python==0.2.38
+# opencv-python-headless==4.8.0.76
+# h5py==3.8.0
+
+# System utilities
+psutil==5.9.5
+# cryptography==41.0.3  # Optional, only needed for secure model storage
